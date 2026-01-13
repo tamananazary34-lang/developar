@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Beginner */
+.block-box {
+  display: block;
+  background: #66BFBF;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inline-box {
+  display: inline;
+  background: #f4a261;
+  padding: 5px;
+}
+
+.inline-block-box {
+  display: inline-block;
+  background: #11999E;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Intermediate */
+.highlight-span {
+  display: inline-block;
+  background: yellow;
+  padding: 6px 10px;
+  margin: 4px;
+}
+
+/* Advanced */
+.pair .side {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  border: 1px solid #333;
+  margin-right: 10px;
+  overflow: auto;
+  padding: 5px;
+}
+
+.demo-box {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e9c46a;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+
+}

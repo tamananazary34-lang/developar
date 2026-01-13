@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Courses</title>
+  
+        <style>
+
+
+
+h1{
+    text-align: center;
+}
+
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #645353;
+        }
+
+        .header {
+            background: #ca6464;
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filters select,
+        .filters input {
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .course-card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .course-image {
+            height: 120px;
+            background: linear-gradient(90deg, #ddd, #eee, #ddd);
+        }
+
+        .course-content {
+            padding: 15px;
+        }
+
+        .course-title {
+            color: #b0004b;
+            font-size: 18px;
+            margin: 0 0 5px 0;
+        }
+
+        .course-sub {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .progress {
+            font-size: 14px;
+            color: #771111;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding: 15px;
+            text-align: center;
+            color: #c25282;
+        }
+    </style>
+</head>
+</body>
+
+    <div class="header">
+        <h1>My Courses</h1>
+        <p> course overview </p>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <select>
+                <option>All</option>
+                <button>in progress </button>
+                <button> Future </button>
+                <button>past </button>
+                <button> Removed Form view </button>
+            </select>
+
+            <input type="text" placeholder="Search">
+
+
+            <select>
+                <option>Sort By Course Name</option>
+                <option> sort BY Last Accessed </option>
+            </select>
+
+            <select>
+                <option> Card </option>
+                <option> List </option>
+                <option> Summary </option>
+            </select>
+        </div>
+
+        <div class="course-card">
+            <div class="course-image"></div>
+
+            <div class="course-content">
+                <h2 class="course-title">UNIV 0001 New Student Orientation</h2>
+                <div class="course-sub">Student Area</div>
+                <div class="progress">8% complete</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button> Contact site support </button>
+        </div>
+    </div>
+
+</body>
+</html>

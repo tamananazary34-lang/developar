@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Challenge</title>
+  <link rel="stylesheet" href="display.css">
+</head>
+<body>
+
+  <h1>End-of-Lesson Display Challenges</h1>
+
+  <!-- Beginner -->
+  <h2>Beginner</h2>
+  <div class="block-box">I am BLOCK</div>
+  <span class="inline-box">I am INLINE</span>
+  <span class="inline-box">INLINE 2</span>
+  <div class="inline-block-box">INLINE-BLOCK</div>
+
+  <!-- Intermediate -->
+  <h2>Intermediate</h2>
+  <p>
+    This is a paragraph with a
+    <span class="highlight-span">special span</span>
+    inside it.
+  </p>
+
+  <!-- Advanced -->
+  <h2>Advanced</h2>
+  <div class="pair">
+    <span class="side">Box A - long text long text long text long text</span>
+    <span class="side">Box B - long text long text long text long text</span>
+  </div>
+
+  <p>
+    <button onclick="document.getElementById('hide1').classList.toggle('hidden')">
+      Toggle display:none
+    </button>
+
+    <button onclick="document.getElementById('hide2').classList.toggle('invisible')">
+      Toggle visibility:hidden
+    </button>
+  </p>
+
+  <div id="hide1" class="demo-box">display: none target</div>
+  <div id="hide2" class="demo-box">visibility: hidden target</div>
+
+</body>
+</html>
